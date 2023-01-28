@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "FormsApp-OidcClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AuthenticationServer": "https://auth.a.ucnit.eu/auth/realms/xOIDCx/",
+        "ClientId": "Alice",
+        "ClientSecret": "NgTOyqNmDrPW8n5oh4HWQPJHrRvp0jLw",
+        "Scope": "email profile roles",
+        "RedirectURI": "https://localhost/winforms.client"
+      }
+    }
+  }
+}
