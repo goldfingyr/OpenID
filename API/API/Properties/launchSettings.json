@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SiteJWT": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2j6rKXje5UzFqh+kL9UjVaXTLICUPlcxmGH57lV4Pt1QZF8BTTbGLxrRq3E2ZD+iYhweb+e8DgaDc9NVg8IaxSMuE4WRvfERB73kZbB0BkTXIfg5nCV+wlE0YqPjPSraiKHo3EhM7N/rGIPYU7gEmMEmPYk+9g48mSWrt9nb+MgBCaDSTazgSdCFkGx3L5qRxuWt+YdV+/TsK4NXvEDffDSQf6QN+g/UaRYEnfw6b49kJ9hk7JvKSlnHcVDnt/IgtDrG1EJKtzCzT7no+lMAZsDMhKbtqRQdgwdquCvFD4OeJZlZ/fvkYhp0ZIEQYmxVwYuuHgz/4p1zg7rlVlUnnQIDAQAB",
+        "AuthURL": "https://auth.a.ucnit.eu/auth/realms/xOIDCx",
+        "AuthClient": "Alice",
+        "AuthResourceOwnerPasswordFlow": "0"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7125;http://localhost:5138"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1066",
+      "sslPort": 44344
+    }
+  }
+}
